@@ -6,10 +6,10 @@
     "module": true,
     "resourceType": "script"
   },
-  "/project/home/elsiosanchez/workspace/node_modules/nuxt/dist/app/entry.mjs": {
+  "/project/atom-Button/node_modules/nuxt/dist/app/entry.mjs": {
     "resourceType": "script",
     "module": true,
     "isEntry": true,
-    "file": "/project/home/elsiosanchez/workspace/node_modules/nuxt/dist/app/entry.mjs"
+    "file": "/project/atom-Button/node_modules/nuxt/dist/app/entry.mjs"
   }
 }

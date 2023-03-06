@@ -3,10 +3,10 @@ declare module 'nuxt/schema' {
   interface NuxtConfig {
     ["elementPlus"]?: typeof import("@element-plus/nuxt").default extends NuxtModule<infer O> ? Partial<O> : Record<string, any>
     ["content"]?: typeof import("@nuxt/content").default extends NuxtModule<infer O> ? Partial<O> : Record<string, any>
-    ["colorMode"]?: typeof import("/project/home/elsiosanchez/workspace/node_modules/@nuxtjs/color-mode/dist/module").default extends NuxtModule<infer O> ? Partial<O> : Record<string, any>
+    ["colorMode"]?: typeof import("/project/atom-Button/node_modules/@nuxtjs/color-mode/dist/module").default extends NuxtModule<infer O> ? Partial<O> : Record<string, any>
     ["nuxt-config-schema"]?: typeof import("nuxt-config-schema").default extends NuxtModule<infer O> ? Partial<O> : Record<string, any>
     ["telemetry"]?: typeof import("@nuxt/telemetry").default extends NuxtModule<infer O> ? Partial<O> : Record<string, any>
-    modules?: (NuxtModule | string | [NuxtModule | string, Record<string, any>] | ["@element-plus/nuxt", NuxtConfig["elementPlus"]] | ["@nuxt/content", NuxtConfig["content"]] | ["/project/home/elsiosanchez/workspace/node_modules/@nuxtjs/color-mode/dist/module", NuxtConfig["colorMode"]] | ["nuxt-config-schema", NuxtConfig["nuxt-config-schema"]] | ["@nuxt/telemetry", NuxtConfig["telemetry"]])[],
+    modules?: (NuxtModule | string | [NuxtModule | string, Record<string, any>] | ["@element-plus/nuxt", NuxtConfig["elementPlus"]] | ["@nuxt/content", NuxtConfig["content"]] | ["/project/atom-Button/node_modules/@nuxtjs/color-mode/dist/module", NuxtConfig["colorMode"]] | ["nuxt-config-schema", NuxtConfig["nuxt-config-schema"]] | ["@nuxt/telemetry", NuxtConfig["telemetry"]])[],
   }
   interface RuntimeConfig {
    app: {
