@@ -8,11 +8,6 @@
       "name": "yarn && yarn dev",
       "command": "nvm install v18.14.2 && nvm use v18.14.2 && yarn && yarn dev",
       "runAtStart": true
-    },
-    "yarn && yarn dev": {
-      "name": "yarn && yarn dev",
-      "command": "yarn && yarn dev",
-      "runAtStart": true
     }
   }
 }
