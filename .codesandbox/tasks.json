@@ -4,14 +4,15 @@
 
   // These tasks can be run from CodeSandbox. Running one will open a log in the app.
   "tasks": {
+    "yarn dev": {
+      "name": "yarn && yarn dev",
+      "command": "nvm install v18.14.2 && nvm use v18.14.2 && yarn && yarn dev",
+      "runAtStart": true
+    },
     "yarn && yarn dev": {
       "name": "yarn && yarn dev",
       "command": "yarn && yarn dev",
       "runAtStart": true
-    },
-    "yarn install": {
-      "name": "yarn install",
-      "command": "yarn install"
     }
   }
 }
