@@ -2,12 +2,6 @@
   <el-row>
     <el-col :span="24">
       <el-card :body-style="{ padding: '0px' }" style="text-align: center;">
-        <img
-          src="./src/assets/solop.png"
-          class="image"
-          style="display: inline;"
-        />
-
         <div style="padding: 14px">
           <p class="title">
             <b>
